@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Me</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f4f4;
+}
+
+/* NAV */
+.navbar {
+    background: #222;
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+/* SECTION */
+.contact-section {
+    text-align: center;
+    padding: 40px;
+}
+
+/* FORM */
+form {
+    background: white;
+    padding: 20px;
+    max-width: 400px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+input, textarea {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* BUTTON */
+button {
+    background: #00bfff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #009acd;
+}
+
+/* SOCIAL */
+.social a {
+    margin: 10px;
+    text-decoration: none;
+    color: #00bfff;
+    font-weight: bold;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAV -->
+<div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="projects.html">Projects</a>
+</div>
+
+<!-- CONTACT -->
+<div class="contact-section">
+    <h1>Contact Me</h1>
+
+    <p>Email me directly:
+        <a href="mailto:h250829j@hit.ac.zw">h250829j@hit.ac.zw</a>
+    </p>
+
+    <!-- FORM -->
+    <form>
+        <input type="text" placeholder="Your Name" required minlength="3">
+
+        <input type="email" placeholder="Your Email" required>
+
+        <textarea placeholder="Your Message" required minlength="10"></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+
+    <!-- SOCIAL LINKS -->
+    <div class="social">
+        <h3>Follow Me</h3>
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+        <a href="#">LinkedIn</a>
+    </div>
+
+</div>
+
+</body>
+</html>
